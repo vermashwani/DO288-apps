@@ -17,6 +17,7 @@ DATE=`date +"%b %d %Y @ %H:%M:%S %p"`
 echo "Page build on $DATE" >> ./info.html
 echo "Proudly served by HTTP Apache Server version  $HTTPD_VERSION" >> ./info.html
 
+echo "print('---------Hello from Python------------')" >> ./miller.py
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
